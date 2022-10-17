@@ -1,6 +1,6 @@
 <h1 align="center">Namaste🙏🏽, I'm Sushant Kumar</h1>
 
-<h2 align="center">A passionate Full Stack developer from Bihar,India</h2>
+<h2 align="center">A passionate Full Stack Web developer from Bihar,India</h2>
 
 <img align="right" width="50%" alt="animated gifs" src="https://cdn.dribbble.com/users/1059583/screenshots/4171367/coding-freak.gif" />
 
