@@ -1,6 +1,6 @@
 <h1 align="center">Namaste🙏🏽, I'm Sushant Kumar</h1>
 
-<h3 align="center">A passionate Full Stack developer from Bihar,India</h3>
+<h2 align="center">A passionate Full Stack developer from Bihar,India</h2>
 
 <img align="right" width="50%" alt="animated gifs" src="https://cdn.dribbble.com/users/1059583/screenshots/4171367/coding-freak.gif" />
 
@@ -31,8 +31,8 @@
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sushantkr961&layout=compact" alt="sushantkr961" /></p>
 
-<p>&nbsp;<img align="left" src="https://github-readme-stats.vercel.app/api?username=sushantkr961&show_icons=true&theme=radical" alt="sushantkr961" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=sushantkr961&show_icons=true&theme=radical" alt="sushantkr961" /></p>
 
-<p><img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=sushantkr961&" alt="sushantkr961" /></p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=sushantkr961&" alt="sushantkr961" /></p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=sushantkr961" alt="sushantkr961" /></a> </p>
