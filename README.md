@@ -2,7 +2,7 @@
 <h1 align="center">Namaste🙏🏽, I'm Sushant Kumar</h1>
 <h3 align="center">A passionate Full Stack developer from Bihar,India</h3>
 
-<img align="right" alt="coding" width="450" margin-bottom="10px" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
+<img align="right" alt="coding" width="500" margin-bottom="10px" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sushantkr961&label=Profile%20views&color=0e75b6&style=flat" alt="sushantkr961" /> </p>
 
