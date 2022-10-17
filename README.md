@@ -1,6 +1,6 @@
 ![logo]("Link of logo")
 <h1 align="center">Namaste🙏🏽, I'm Sushant Kumar</h1>
-<h2 align="center">A passionate Full Stack developer from Bihar,India</h2>
+<h3 align="center">A passionate Full Stack developer from Bihar,India</h3>
 
 <img align="right" alt="coding" width="450" margin-bottom="10px" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
