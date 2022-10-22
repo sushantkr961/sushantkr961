@@ -10,7 +10,7 @@
 
 - 🔭 I’m currently working on [portfolio](https://github.com/sushantkr961/sushantkr961.github.io)
 
-- 🌱 I’m currently learning **MongoDB**
+- 🌱 I’m currently learning **Redux**
 
 - 👨‍💻 All of my projects are available at [https://github.com/sushantkr961/sushantkr961.github.io](https://github.com/sushantkr961/sushantkr961.github.io)
 
