@@ -44,7 +44,10 @@
 <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" width="36" height="36" alt="TypeScript" /></a>
 <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg" width="36" height="36" alt="TailwindCSS" /></a>
 <a href="https://mui.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/materialui-colored.svg" width="36" height="36" alt="Material UI" /></a>
-<a href="https://expressjs.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored.svg" width="36" height="36" alt="Express" /></a> </p>
+<a href="https://expressjs.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored.svg" width="36" height="36" alt="Express" /></a>
+<a href="https://www.netlify.com/" target="_blank" rel="noreferrer"><img src="https://th.bing.com/th/id/OIP.hc2ftTaQxN2DdHtd9_5mzgAAAA?w=167&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="36" height="36" alt="Netlify" /></a>
+<a href="https://www.npmjs.com/" target="_blank" rel="noreferrer"><img src="https://th.bing.com/th/id/OIP.i5eapjfPCTnTze-T5MvGYAHaFj?w=238&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="36" height="36" alt="npm" /></a>
+</p>
 
 <h3>My GitHub Stats</h3>
 
@@ -56,3 +59,6 @@
 <a href="http://www.github.com/sushantkr961"><img src="https://activity-graph.herokuapp.com/graph?username=sushantkr961&bg_color=1c1917&color=ffffff&line=0891b2&point=ffffff&area_color=1c1917&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=sushantkr961" alt="sushantkr961" /></a> </p>
+
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
