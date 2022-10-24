@@ -1,3 +1,5 @@
+<img src="https://user-images.githubusercontent.com/39955420/147578199-56632b69-b3e8-4d9f-97e2-f046a1c2cba0.gif" align="center"  />
+
 <h1 align="center">Namaste🙏🏽, I'm Sushant Kumar</h1>
 
 <h3 align="center">A passionate Full Stack Web developer from Bihar,India</h3>
