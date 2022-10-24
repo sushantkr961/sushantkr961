@@ -18,7 +18,7 @@
 
 - ⚡ Fun fact **I think I'm funny, creative & innovative**
 
-<h3 align="left">Connect with me:<img src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif" width="100" /></h3>
+<h3 align="left">🌐 Connect with me:<img src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif" width="100" /></h3>
 
 <p align="left">
 <a href="https://twitter.com/sushantkr961" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="sushantkr961" height="30" width="40" /></a>
@@ -27,7 +27,7 @@
 <a href="https://instagram.com/sushantkr.961" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="sushantkr961" height="30" width="40" /></a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
+### 💻 Languages and Tools:
 
 <p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> 
 <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a>
@@ -49,7 +49,7 @@
 <a href="https://www.npmjs.com/" target="_blank" rel="noreferrer"><img src="https://th.bing.com/th/id/OIP.i5eapjfPCTnTze-T5MvGYAHaFj?w=238&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="36" height="36" alt="npm" /></a>
 </p>
 
-<h3>My GitHub Stats</h3>
+### 📊 GitHub Stats:
 
 <a href="http://www.github.com/sushantkr961"><img src="https://github-readme-stats.vercel.app/api?username=sushantkr961&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="sushantkr961's GitHub stats" /></a>
 
@@ -57,8 +57,8 @@
 <a href="https://github.com/sushantkr961" align="right"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sushantkr961&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
 
 <a href="http://www.github.com/sushantkr961"><img src="https://activity-graph.herokuapp.com/graph?username=sushantkr961&bg_color=1c1917&color=ffffff&line=0891b2&point=ffffff&area_color=1c1917&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=sushantkr961" alt="sushantkr961" /></a> </p>
+### 🏆 GitHub Trophies
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=sushantkr961&theme=buddhism&no-frame=true&no-bg=true&margin-w=4" alt="sushantkr961" /></a> </p>
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
