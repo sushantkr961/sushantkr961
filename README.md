@@ -8,17 +8,20 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sushantkr961&label=Profile%20views&color=0e75b6&style=flat" alt="sushantkr961" /> </p>
 
+⚡  Little bit about me:
 
+⚗️  Though I hold Bachelor’s degree in Mechanical engineering,
+    <div>✨ I become a Full Stack (MERN) web developer. </div>
+🌱  I’m actively looking for opportunities.
 
-- 🔭 I’m currently working on [portfolio](https://github.com/sushantkr961/sushantkr961.github.io)
+#### ⚡ One line that describes me best? ####
+🌱 A hard working and enthusiastic person who loves to code.
+<br />
+  🌍 I’m based in Bhopal,Madhya-Pradesh
+<br/>
+  ⚡ Visit my Portfolio: <a href="////" target="_blank">Portfolio</a> for more details.
+  <div> ✉️ You can contact me at  <a href="mailto:sushantonly961@gmail.com">sushantonly961@gmail.com</a></div>
 
-- 🌱 I’m currently learning **Redux**
-
-- 👨‍💻 All of my projects are available at [https://github.com/sushantkr961/sushantkr961.github.io](https://github.com/sushantkr961/sushantkr961.github.io)
-
-- 📫 How to reach me **sushantonly961@gmail.com**
-
-- ⚡ Fun fact **I think I'm funny, creative & innovative**
 
 <h3 align="left">🌐 Connect with me:<img src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif" width="100" /></h3>
 
