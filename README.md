@@ -17,7 +17,7 @@
 #### ⚡ One line that describes me best? ####
 🌱 A hard working and enthusiastic person who loves to code.
 <br />
- 🌍 I’m based in Nalanda,Bihar
+ 🌍 I’m based in Nalanda,Bihar.
 <br/>
 ⚡ Visit my Portfolio: <a href="////" target="_blank">Portfolio</a> for more details.
 <div> ✉️ You can contact me at  <a href="mailto:sushantonly961@gmail.com">sushantonly961@gmail.com</a></div>
