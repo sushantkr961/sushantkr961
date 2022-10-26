@@ -4,7 +4,7 @@
 
 <h3 align="center">A passionate Full Stack Web developer from Bihar,India</h3>
 
-<img align="right" width="50%" alt="animated gifs" src="https://cdn.dribbble.com/users/1059583/screenshots/4171367/coding-freak.gif" />
+<img align="right" width="550px" height="400px" alt="animated gifs" src="https://r7q6w9z6.rocketcdn.me/career/wp-content/uploads/2021/06/2-46.gif" />
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sushantkr961&label=Profile%20views&color=0e75b6&style=flat" alt="sushantkr961" /> </p>
 
