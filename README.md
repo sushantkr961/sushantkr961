@@ -55,13 +55,14 @@
 </p>
 
 ### 📊 GitHub Stats:
+<div style="display: flex;">
+    <img width="450px" height="200px" alt="sushantkr961's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=sushantkr961&show_icons=true&count_private=true&theme=chartreuse-dark&hide_border=true&bg_color=0D1117" />
+    <img width="300px" height="200px" alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sushantkr961&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117" />
+</div>
+<br/>
 
-<a href="http://www.github.com/sushantkr961"><img src="https://github-readme-stats.vercel.app/api?username=sushantkr961&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="sushantkr961's GitHub stats" /></a>
+<a href="http://www.github.com/sushantkr961"><img src="https://activity-graph.herokuapp.com/graph?username=sushantkr961&bg_color=0D1117&color=74bde0&line=4a8db7&point=FFFFFF&hide_border=true&" alt="GitHub Commits Graph" /></a>
 
-<a href="http://www.github.com/sushantkr961" align="left"><img src="https://github-readme-streak-stats.herokuapp.com/?user=sushantkr961&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
-<a href="https://github.com/sushantkr961" align="right"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sushantkr961&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
-
-<a href="http://www.github.com/sushantkr961"><img src="https://activity-graph.herokuapp.com/graph?username=sushantkr961&bg_color=1c1917&color=ffffff&line=0891b2&point=ffffff&area_color=1c1917&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
 ### 🏆 GitHub Trophies
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=sushantkr961&theme=buddhism&no-frame=true&no-bg=true&margin-w=4" alt="sushantkr961" /></a> </p>
 
