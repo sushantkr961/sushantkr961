@@ -19,17 +19,17 @@
 <br />
  🌍 I’m based in Nalanda,Bihar.
 <br/>
-⚡ Visit my Portfolio: <a href="////" target="_blank">Portfolio</a> for more details.
+⚡ Visit my Portfolio: <a href="////" target="_blank" rel="noreferrer noopener">Portfolio</a> for more details.
 <div> ✉️ You can contact me at  <a href="mailto:sushantonly961@gmail.com">sushantonly961@gmail.com</a></div>
 
 
 <h3 align="left">🌐 Connect with me:<img src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif" width="100" /></h3>
 
 <p align="left">
-<a href="https://twitter.com/sushantkr961" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="sushantkr961" height="30" width="40" /></a>
-<a href="https://www.linkedin.com/in/sushantkr961/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/sushantkr961/" height="30" width="40" /></a>
-<a href="https://codesandbox.com/sushantkr961" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codesandbox.svg" alt="sushantkr961" height="30" width="40" /></a>
-<a href="https://instagram.com/sushantkr.961" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="sushantkr961" height="30" width="40" /></a>
+<a href="https://twitter.com/sushantkr961" target="_blank" rel="noreferrer noopener"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="sushantkr961" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/sushantkr961/" target="_blank" rel="noreferrer noopener"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/sushantkr961/" height="30" width="40" /></a>
+<a href="https://codesandbox.com/sushantkr961" target="_blank" rel="noreferrer noopener"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codesandbox.svg" alt="sushantkr961" height="30" width="40" /></a>
+<a href="https://instagram.com/sushantkr.961" target="_blank" rel="noreferrer noopener"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="sushantkr961" height="30" width="40" /></a>
 </p>
 
 ### 💻 Languages and Tools:
