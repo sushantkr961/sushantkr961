@@ -2,7 +2,7 @@
 
 <h1 align="center">Namaste🙏🏽, I'm Sushant Kumar</h1>
 
-<h3 align="center">A passionate Full Stack Web developer from Bihar,India</h3>
+<h3 align="center">A Passionate Coder from Bihar,India</h3>
 
 <img align="right" width="550px" height="370px" alt="animated gifs" src="https://r7q6w9z6.rocketcdn.me/career/wp-content/uploads/2021/06/2-46.gif" />
 
