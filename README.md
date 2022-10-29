@@ -20,7 +20,7 @@
  🌍 I’m based in Nalanda,Bihar.
 <br/>
 ⚡ Visit my Portfolio: <a href="https://sushantkr961.github.io/" target="_blank" rel="noreferrer noopener">Portfolio</a> for more details.
-<div> ✉️ You can contact me at  <a href="mailto:sushantonly961@gmail.com">sushantonly961@gmail.com</a></div>
+<div> ✉️ You can contact me at  <a href="mailto:sushantonly961@gmail.com" target="_blank" rel="noreferrer noopener">sushantonly961@gmail.com</a></div>
 
 
 <h3 align="left">🌐 Connect with me:<img src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif" width="100" /></h3>
