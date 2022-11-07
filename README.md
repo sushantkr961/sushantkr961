@@ -1,4 +1,4 @@
-<img src="https://user-images.githubusercontent.com/39955420/147578199-56632b69-b3e8-4d9f-97e2-f046a1c2cba0.gif" align="center"  />
+<img src="https://www.shutterstock.com/image-illustration/word-cloud-web-development-related-600w-177597308.jpg" width='100%' height='300px' align="center"  />
 
 <h1 align="center">Namaste🙏🏽, I'm Sushant Kumar</h1>
 
