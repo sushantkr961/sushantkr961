@@ -4,7 +4,7 @@
 
 <h3 align="center">A Passionate Coder from Bihar,India</h3>
 
-### About me:
+### 👉🏽About me:
 <p>I'm a passionate learner who's always willing to learn and work across technologies and domains 💡. I love to explore new technologies and leverage them to solve real-life problems ✨. I'm currently into Web Development 🕸️ and working on my Data Structures and Algorithms 🤓.</p>
 
 <img align="right" width="450px" height="320px" alt="animated gifs" src="https://r7q6w9z6.rocketcdn.me/career/wp-content/uploads/2021/06/2-46.gif" />
