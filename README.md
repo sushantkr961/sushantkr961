@@ -22,7 +22,7 @@
 <br />
  🌍 I’m based in Nalanda,Bihar.
 <br/>
-⚡ Visit my <a href="https://sushantkr961.github.io/" target="_blank" rel="noreferrer noopener">Portfolio</a> and <a href="https://drive.google.com/file/d/1vgTTQpxYPYJ22vHrKxWeDOwul_pDONSd/view?usp=share_link" target="_blank" rel="noreferrer noopener">Resume</a> for more details.
+⚡ Visit my <a href="https://sushantkr961.github.io/" target="_blank" rel="noreferrer noopener">Portfolio</a> and <a href="https://drive.google.com/file/d/14Qq1p4eUGvDNjziaUtVvT7HynPCK1jtx/view?usp=sharing" target="_blank" rel="noreferrer noopener">Resume</a> for more details.
 <div> ✉️ You can contact me at  <a href="mailto:sushantonly961@gmail.com" target="_blank" rel="noreferrer noopener">sushantonly961@gmail.com</a></div>
 
 
