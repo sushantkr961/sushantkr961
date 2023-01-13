@@ -61,8 +61,8 @@
 <div style="display: flex;">
 <!--     <img width="450px" height="200px" alt="sushantkr961's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=sushantkr961&show_icons=true&count_private=true&theme=chartreuse-dark&hide_border=true&bg_color=0D1117" /> -->
     <img width="450px" height="200px" alt="sushantkr961's GitHub stats" src="https://github-stats-alpha.vercel.app/api?username=sushantkr961" />
-<!--     <img width="300px" height="200px" alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sushantkr961&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117" /> -->
-    <img width="300px" height="200px" alt="Top Languages" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sushantkr961&theme=default" />
+    <img width="300px" height="200px" alt="Top Languages" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=sushantkr961" />
+<!--     <img width="300px" height="200px" alt="Top Languages" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sushantkr961&theme=default" /> -->
 </div>
 <br/>
 
