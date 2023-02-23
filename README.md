@@ -70,7 +70,7 @@
 <!-- <a href="http://www.github.com/sushantkr961"><img src="https://activity-graph.herokuapp.com/graph?username=sushantkr961&bg_color=0D1117&color=74bde0&line=4a8db7&point=FFFFFF&hide_border=true&" alt="GitHub Commits Graph" /></a> -->
 
 ### 🏆 GitHub Trophies
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=sushantkr961&theme=buddhism&no-frame=true&no-bg=true&margin-w=4" alt="sushantkr961" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=sushantkr961" alt="sushantkr961" /></a> </p>
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
