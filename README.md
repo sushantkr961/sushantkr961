@@ -32,7 +32,6 @@
 <a href="https://twitter.com/sushantkr961" target="_blank" rel="noreferrer noopener"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="sushantkr961" height="30" width="40" /></a>
 <a href="https://www.linkedin.com/in/sushantkr961/" target="_blank" rel="noreferrer noopener"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/sushantkr961/" height="30" width="40" /></a>
 <a href="https://codesandbox.com/sushantkr961" target="_blank" rel="noreferrer noopener"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codesandbox.svg" alt="sushantkr961" height="30" width="40" /></a>
-<a href="https://instagram.com/sushantkr.961" target="_blank" rel="noreferrer noopener"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="sushantkr961" height="30" width="40" /></a>
 </p>
 
 ### 💻 Languages and Tools:
@@ -55,7 +54,7 @@
 <a href="https://expressjs.com/" target="_blank" rel="noreferrer"><code><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored.svg" width="36" height="36" alt="Express" /></code></a>
 <a href="https://www.netlify.com/" target="_blank" rel="noreferrer"><code><img src="https://th.bing.com/th/id/OIP.hc2ftTaQxN2DdHtd9_5mzgAAAA?w=167&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="36" height="36" alt="Netlify" /></code></a>
 <a href="https://www.npmjs.com/" target="_blank" rel="noreferrer"><code><img src="https://th.bing.com/th/id/OIP.i5eapjfPCTnTze-T5MvGYAHaFj?w=238&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="36" height="36" alt="npm" /></code></a>
-<a href="https://nextjs.org/" target="_blank" rel="noreferrer"><code><img src="https://th.bing.com/th/id/OIP.EdQa3YjwfQZD-eOgfQrnLAHaBx?w=308&h=83&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="36" height="36" alt="Nextjs" /></code></a>
+<!-- <a href="https://nextjs.org/" target="_blank" rel="noreferrer"><code><img src="https://th.bing.com/th/id/OIP.EdQa3YjwfQZD-eOgfQrnLAHaBx?w=308&h=83&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="36" height="36" alt="Nextjs" /></code></a> -->
 </p>
 
 ### 📊 GitHub Stats:
