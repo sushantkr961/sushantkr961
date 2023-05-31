@@ -54,7 +54,10 @@
 <a href="https://expressjs.com/" target="_blank" rel="noreferrer"><code><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored.svg" width="36" height="36" alt="Express" /></code></a>
 <a href="https://www.netlify.com/" target="_blank" rel="noreferrer"><code><img src="https://th.bing.com/th/id/OIP.hc2ftTaQxN2DdHtd9_5mzgAAAA?w=167&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="36" height="36" alt="Netlify" /></code></a>
 <a href="https://www.npmjs.com/" target="_blank" rel="noreferrer"><code><img src="https://th.bing.com/th/id/OIP.i5eapjfPCTnTze-T5MvGYAHaFj?w=238&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="36" height="36" alt="npm" /></code></a>
-<!-- <a href="https://nextjs.org/" target="_blank" rel="noreferrer"><code><img src="https://th.bing.com/th/id/OIP.EdQa3YjwfQZD-eOgfQrnLAHaBx?w=308&h=83&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="36" height="36" alt="Nextjs" /></code></a> -->
+<a href="https://nextjs.org/" target="_blank" rel="noreferrer"><code><img src="https://th.bing.com/th/id/OIP.EdQa3YjwfQZD-eOgfQrnLAHaBx?w=308&h=83&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="36" height="36" alt="Nextjs" /></code></a>
+<a href="https://pugjs.org" target="_blank" rel="noreferrer"><code> <img src="https://cdn.worldvectorlogo.com/logos/pug.svg" alt="pug" width="40" height="40"/></code> </a> 
+<a href="https://sass-lang.com" target="_blank" rel="noreferrer"><code> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/></code> </a> 
+<a href="https://vuejs.org/" target="_blank" rel="noreferrer"><code> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/></code> </a>
 </p>
 
 ### 📊 GitHub Stats:
