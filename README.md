@@ -57,6 +57,7 @@
 <a href="https://nextjs.org/" target="_blank" rel="noreferrer"><code><img src="https://th.bing.com/th/id/OIP.EdQa3YjwfQZD-eOgfQrnLAHaBx?w=308&h=83&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="36" height="36" alt="Nextjs" /></code></a>
 <a href="https://pugjs.org/" target="_blank" rel="noreferrer"><code><img src="https://img.shields.io/badge/Pug-FFF?style=for-the-badge&logo=pug&logoColor=A86454" width="36" height="36" alt="pugjs" /></code></a>
 <a href="https://handlebarsjs.com/" target="_blank" rel="noreferrer"><code><img src="https://handlebarsjs.com/images/handlebars_logo.png" width="36" height="36" alt="handlebars" /></code></a>
+<a href="https://ejs.co/" target="_blank" rel="noreferrer"><code><img src="https://ejs.co/favicon.svg" width="36" height="36" alt="ejs" /></code></a>
 </p>
 
 ### 📊 GitHub Stats:
