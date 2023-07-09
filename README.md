@@ -65,10 +65,7 @@
     <img width="300px" height="200px" alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sushantkr961&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" />
 <!--     <img width="300px" height="200px" alt="Top Languages" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=sushantkr961" /> -->
 <!--     <img width="300px" height="200px" alt="Top Languages" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sushantkr961&theme=default" /> -->
-    
-![]()
 </div>
-<br/>
 
 ## 🏆 GitHub Trophies
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=sushantkr961&theme=radical&no-frame=false&no-bg=true&margin-w=4" alt="sushantkr961" /></a> </p>
@@ -78,7 +75,3 @@
 
 ## ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-
-
-
