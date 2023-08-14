@@ -56,6 +56,7 @@
     <a href="https://handlebarsjs.com/" target="_blank" rel="noreferrer"><code><img src="https://handlebarsjs.com/images/handlebars_logo.png" width="36" height="36" alt="handlebars" /></code></a>
     <a href="https://ejs.co/" target="_blank" rel="noreferrer"><code><img src="https://ejs.co/favicon.svg" width="36" height="36" alt="ejs" /></code></a>
     <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"><code><img src="https://d33wubrfki0l68.cloudfront.net/554c3b0e09cf167f0281fda839a5433f2040b349/ecfc9/img/header_logo.svg" width="36" height="36" alt="ejs" /></code></a>
+    <a href="https://redux-saga.js.org/" target="_blank" rel="noreferrer"><code><img src="https://redux-saga.js.org/img/Redux-Saga-Logo.png" width="36" height="36" alt="redux-saga" /></code></a>
 </p>
 
 ## 📊 GitHub Stats:
