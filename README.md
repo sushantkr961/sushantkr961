@@ -8,7 +8,7 @@
 
 <p>I'm a passionate learner who's always willing to learn and work across technologies and domains 💡. I love to explore new technologies and leverage them to solve real-life problems ✨. I'm currently into Web Development 🕸️ and working on my Data Structures and Algorithms 🤓.</p>
 
-<img align="right" width="450px" height="320px" alt="animated gifs" src="https://cdn.dribbble.com/users/2131993/screenshots/4948736/thoughtworks-gif_dribbble.gif" />
+<img align="right" width="450px" height="320px" alt="animated gifs" src="/readme.png" />
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sushantkr961&label=Profile%20views&color=0e75b6&style=flat" alt="sushantkr961" /> </p>
 
