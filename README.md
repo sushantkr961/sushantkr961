@@ -16,7 +16,7 @@
 
 🔭 I’m currently working on **React Native** </br>
 ⚗️ Though I hold Bachelor’s degree in Mechanical engineering,</br>
-I become a Full Stack (MERN) web developer.</br>
+I become a Software developer.</br>
 🌱 I’m actively looking for **Open Source Opportunities**.
 
 **⚡ One line that describes me best?**</br>
