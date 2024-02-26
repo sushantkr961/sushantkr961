@@ -1,4 +1,4 @@
-<img src="./assests/readme.webp" width='100%' height='300px' align="center"  />
+<img src="./assests/readme.webp" width='100%' height='350px' align="center"  />
 
 <h1 align="center">Namaste🙏🏽, I'm Sushant Kumar</h1>
 
