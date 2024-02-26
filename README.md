@@ -15,7 +15,7 @@
 ### ⚡ Little bit about me: </br>
 
 🔭 I’m currently working on **React Native** </br>
-⚗️ Though I hold Bachelor’s degree in Mechanical engineering,</br>
+⚗️ Though I hold Bachelor’s degree in Mechanical engineering,
 I become a Software developer.</br>
 🌱 I’m actively looking for **Open Source Opportunities** and **Freelancing**.
 
