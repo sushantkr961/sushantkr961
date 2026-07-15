@@ -1,4 +1,8 @@
-<img src="./assests/readme.webp" width='100%' height='350px' align="center"  />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assests/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assests/light.svg">
+  <img src="./assests/dark.svg" alt="Sushant Kumar — Full-Stack & React Native Developer" width="100%">
+</picture>
 
 <h1 align="center">Namaste🙏🏽, I'm Sushant Kumar</h1>
 
