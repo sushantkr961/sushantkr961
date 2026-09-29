@@ -4,6 +4,7 @@ Usage:  python3 gen.py                       (writes ../dark.svg and ../light.sv
         python3 gen.py out_dir               (writes elsewhere for previewing)
         python3 gen.py out_dir --themes portfolio            (one theme)
         python3 gen.py out_dir --themes portfolio --card left (left card only, own canvas)
+        python3 gen.py out_dir --themes portfolio --card wallpaper (1920x1200 full-bleed desktop wallpaper)
 Edit the DATA block below to change any profile text.
 
 Both themes share geometry, copy and animation timing; only the palette,
@@ -129,8 +130,10 @@ def rise(start, dy=8, dur=.6):
             f'keyTimes="0;{k};1" calcMode="spline" keySplines="0 0 1 1;.2 .8 .2 1" dur="{total}s" begin="0s" fill="freeze"/>')
 
 # ---------------------------------------------------------------- pieces
-def defs(t, CW_=W, CH_=H):
+def defs(t, CW_=W, CH_=H, fullbleed=False):
     g = t["glow_std"]
+    frame_rect = (f'<rect x="0" y="0" width="{CW_}" height="{CH_}"/>' if fullbleed
+                  else f'<rect x="6" y="6" width="{CW_-12}" height="{CH_-12}" rx="24"/>')
     return f'''
 <defs>
   <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
@@ -193,21 +196,24 @@ def defs(t, CW_=W, CH_=H):
   <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
     <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0F172A" flood-opacity=".10"/>
   </filter>
-  <clipPath id="frame"><rect x="6" y="6" width="{CW_-12}" height="{CH_-12}" rx="24"/></clipPath>
+  <clipPath id="frame">{frame_rect}</clipPath>
   <clipPath id="portraitClip"><rect x="{L['x']+12}" y="{P_Y-8}" width="{L['w']-24}" height="{PROWS*P_LH+16}"/></clipPath>
 </defs>'''
 
-def background(t, w=W, h=H):
+def background(t, w=W, h=H, fullbleed=False):
     rnd = random.Random(7)
     sx, sy = w / W, h / H
-    parts = [f'<rect x="6" y="6" width="{w-12}" height="{h-12}" rx="24" fill="url(#bgGrad)"/>',
+    rs = 1 if w == W else (0.55 if w < W else w / W)
+    base = (f'<rect x="0" y="0" width="{w}" height="{h}" fill="url(#bgGrad)"/>' if fullbleed
+            else f'<rect x="6" y="6" width="{w-12}" height="{h-12}" rx="24" fill="url(#bgGrad)"/>')
+    parts = [base,
              '<g clip-path="url(#frame)">',
              f'<rect x="0" y="0" width="{w}" height="{h}" fill="url(#grid)"/>']
     blobs = [("blob1", 200, 120, 420, "0 0;60 40;0 0", 26), ("blob2", 960, 470, 380, "0 0;-70 -30;0 0", 31), ("blob3", 620, 80, 300, "0 0;-40 50;0 0", 37)]
     for gid, cx, cy, r, vals, dur in blobs:
-        parts.append(f'<circle cx="{cx*sx:.0f}" cy="{cy*sy:.0f}" r="{r if w == W else r*0.55:.0f}" fill="url(#{gid})"><animateTransform attributeName="transform" type="translate" values="{vals}" dur="{dur}s" repeatCount="indefinite"/></circle>')
+        parts.append(f'<circle cx="{cx*sx:.0f}" cy="{cy*sy:.0f}" r="{r*rs:.0f}" fill="url(#{gid})"><animateTransform attributeName="transform" type="translate" values="{vals}" dur="{dur}s" repeatCount="indefinite"/></circle>')
     parts.append(f'<rect x="0" y="0" width="{w}" height="{h}" filter="url(#noise)" opacity="{t["noise_op"]}"/>')
-    for i in range(16 if w == W else 8):
+    for i in range(16 if w == W else (8 if w < W else 30)):
         x = rnd.randint(30, w-30); y = rnd.randint(30, h-30); r = rnd.choice([1, 1, 1.5, 2]); d = rnd.randint(9, 20); dl = rnd.uniform(0, 8)
         parts.append(f'<circle cx="{x}" cy="{y}" r="{r}" fill="{t["particle"]}" opacity="{t["particle_op"]}">'
                      f'<animate attributeName="cy" values="{y};{y-28};{y}" dur="{d}s" begin="-{dl:.1f}s" repeatCount="indefinite"/>'
@@ -369,18 +375,29 @@ def svg(theme, card=None):
         dx, dy = m - L["x"], m - L["y"]
         body = f'<g transform="translate({dx} {dy})">{left(t)}</g>'
         aria = f"{NAME}, {TAGLINE}. Character-rendered portrait card."
+    elif card == "wallpaper":
+        # desktop wallpaper: full-bleed 16:10 canvas; cards sit in the lower-middle so a
+        # clock can live in the top third and a dock in the bottom strip; cover-cropping on
+        # other ratios only trims background gradient, never the cards
+        w, h = 1920, 1200
+        s = 1.08
+        tx = (w - W * s) / 2
+        ty = 460 - L["y"] * s   # cards top at 460: clears a 12%-top clock even on 1280x720, stays above the dock
+        body = f'<g transform="translate({tx:.1f} {ty:.1f}) scale({s})">{left(t)}\n{right(t)}</g>'
+        aria = f"{ARIA} Desktop wallpaper."
     else:
         w, h = W, H
         body = f"{left(t)}\n{right(t)}"
         aria = ARIA
+    fullbleed = card == "wallpaper"
     return f'''<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="{esc(aria)}" font-family="{MONO}">
 <title>{esc(NAME)} · {esc(HEADLINE)}</title>
 <desc>{esc(aria)} Animated terminal-style profile banner ({theme} theme).</desc>
-{defs(t, w, h)}
-{background(t, w, h)}
+{defs(t, w, h, fullbleed)}
+{background(t, w, h, fullbleed)}
 {body}
-{overlay(t, w, h)}
+{"" if fullbleed else overlay(t, w, h)}
 </svg>
 '''
 
