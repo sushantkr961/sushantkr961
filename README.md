@@ -81,7 +81,10 @@ I build and ship web and mobile products across the JavaScript / TypeScript ecos
 
 <p align="left">
   <img height="180" alt="Sushant Kumar's GitHub stats" src="https://github-stats-alpha.vercel.app/api?username=sushantkr961" />
-  <img height="180" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sushantkr961&theme=light&hide_border=false&include_all_commits=true&count_private=true&layout=compact" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=sushantkr961&theme=github_dark">
+    <img height="180" alt="Top languages by commit" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=sushantkr961&theme=github" />
+  </picture>
 </p>
 
 ## 🌐 Connect
