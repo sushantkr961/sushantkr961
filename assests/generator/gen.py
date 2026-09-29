@@ -1,7 +1,9 @@
 """Generate assests/dark.svg and assests/light.svg from one shared layout.
 
-Usage:  python3 gen.py            (writes ../dark.svg and ../light.svg)
-        python3 gen.py out_dir    (writes elsewhere for previewing)
+Usage:  python3 gen.py                       (writes ../dark.svg and ../light.svg)
+        python3 gen.py out_dir               (writes elsewhere for previewing)
+        python3 gen.py out_dir --themes portfolio            (one theme)
+        python3 gen.py out_dir --themes portfolio --card left (left card only, own canvas)
 Edit the DATA block below to change any profile text.
 
 Both themes share geometry, copy and animation timing; only the palette,
@@ -13,7 +15,12 @@ import json, os, sys, random
 from xml.sax.saxutils import escape as _esc
 
 S = os.path.dirname(os.path.abspath(__file__))
-OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.dirname(S)   # default: write assests/dark.svg + light.svg
+ARGS = [a for a in sys.argv[1:] if not a.startswith("--")]
+OUT = ARGS[0] if ARGS else os.path.dirname(S)   # default: write assests/dark.svg + light.svg
+def _opt(name, default):
+    return sys.argv[sys.argv.index(name) + 1] if name in sys.argv else default
+THEMES_TO_BUILD = _opt("--themes", "dark,light").split(",")
+CARD = _opt("--card", None)          # None = full banner, "left" = portrait card only
 os.makedirs(OUT, exist_ok=True)
 
 def esc(s): return _esc(s, {'"': "&quot;"})
@@ -61,6 +68,21 @@ THEMES = {
     dot_r="#FF5F57", dot_y="#FEBC2E", dot_g="#28C840",
     particle="#A5F3FC", particle_op=".5",
   ),
+  "portfolio": dict(   # sushantkr961.github.io landing tokens: asphalt, warm paper, signal orange, telemetry green
+    bg0="#0E1116", bg1="#12161C", bg2="#161B22",
+    panel="#161B22", panel_op=".75", panel_stroke="#EDE9E1", panel_stroke_op=".12",
+    header="#1C222B", header_op=".8",
+    text="#EDE9E1", text2="#D6D2CA", muted="#A3A199", faint="#7A7974",
+    a1="#FF7A1A", a2="#FFA45C", a3="#5CE0A8", a1l="#FFB067", a2l="#FF7A1A", a3l="#5CE0A8",
+    grid="#EDE9E1", grid_op=".035", noise_op=".03",
+    blob1="#FF7A1A", blob2="#2A3340", blob3="#5CE0A8", blob_op=".16",
+    pill="#1C222B", pill_op=".9", pill_stroke="#3A4250",
+    glow_std=2.4, glow_op=".5", scan_op=".14", shadow=False,
+    ascii=("#FF7A1A", "#FFB067", "#FF9A3C"), invert=False,
+    cursor="#FF7A1A", divider="#EDE9E1", divider_op=".12",
+    dot_r="#FF5F57", dot_y="#FEBC2E", dot_g="#28C840",
+    particle="#FFB067", particle_op=".35",
+  ),
   "light": dict(
     bg0="#FFFFFF", bg1="#F8FAFC", bg2="#EEF6FF",
     panel="#FFFFFF", panel_op=".72", panel_stroke="#CBD5E1", panel_stroke_op=".9",
@@ -107,7 +129,7 @@ def rise(start, dy=8, dur=.6):
             f'keyTimes="0;{k};1" calcMode="spline" keySplines="0 0 1 1;.2 .8 .2 1" dur="{total}s" begin="0s" fill="freeze"/>')
 
 # ---------------------------------------------------------------- pieces
-def defs(t):
+def defs(t, CW_=W, CH_=H):
     g = t["glow_std"]
     return f'''
 <defs>
@@ -171,21 +193,22 @@ def defs(t):
   <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
     <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0F172A" flood-opacity=".10"/>
   </filter>
-  <clipPath id="frame"><rect x="6" y="6" width="{W-12}" height="{H-12}" rx="24"/></clipPath>
+  <clipPath id="frame"><rect x="6" y="6" width="{CW_-12}" height="{CH_-12}" rx="24"/></clipPath>
   <clipPath id="portraitClip"><rect x="{L['x']+12}" y="{P_Y-8}" width="{L['w']-24}" height="{PROWS*P_LH+16}"/></clipPath>
 </defs>'''
 
-def background(t):
+def background(t, w=W, h=H):
     rnd = random.Random(7)
-    parts = [f'<rect x="6" y="6" width="{W-12}" height="{H-12}" rx="24" fill="url(#bgGrad)"/>',
+    sx, sy = w / W, h / H
+    parts = [f'<rect x="6" y="6" width="{w-12}" height="{h-12}" rx="24" fill="url(#bgGrad)"/>',
              '<g clip-path="url(#frame)">',
-             f'<rect x="0" y="0" width="{W}" height="{H}" fill="url(#grid)"/>']
+             f'<rect x="0" y="0" width="{w}" height="{h}" fill="url(#grid)"/>']
     blobs = [("blob1", 200, 120, 420, "0 0;60 40;0 0", 26), ("blob2", 960, 470, 380, "0 0;-70 -30;0 0", 31), ("blob3", 620, 80, 300, "0 0;-40 50;0 0", 37)]
     for gid, cx, cy, r, vals, dur in blobs:
-        parts.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="url(#{gid})"><animateTransform attributeName="transform" type="translate" values="{vals}" dur="{dur}s" repeatCount="indefinite"/></circle>')
-    parts.append(f'<rect x="0" y="0" width="{W}" height="{H}" filter="url(#noise)" opacity="{t["noise_op"]}"/>')
-    for i in range(16):
-        x = rnd.randint(30, W-30); y = rnd.randint(30, H-30); r = rnd.choice([1, 1, 1.5, 2]); d = rnd.randint(9, 20); dl = rnd.uniform(0, 8)
+        parts.append(f'<circle cx="{cx*sx:.0f}" cy="{cy*sy:.0f}" r="{r if w == W else r*0.55:.0f}" fill="url(#{gid})"><animateTransform attributeName="transform" type="translate" values="{vals}" dur="{dur}s" repeatCount="indefinite"/></circle>')
+    parts.append(f'<rect x="0" y="0" width="{w}" height="{h}" filter="url(#noise)" opacity="{t["noise_op"]}"/>')
+    for i in range(16 if w == W else 8):
+        x = rnd.randint(30, w-30); y = rnd.randint(30, h-30); r = rnd.choice([1, 1, 1.5, 2]); d = rnd.randint(9, 20); dl = rnd.uniform(0, 8)
         parts.append(f'<circle cx="{x}" cy="{y}" r="{r}" fill="{t["particle"]}" opacity="{t["particle_op"]}">'
                      f'<animate attributeName="cy" values="{y};{y-28};{y}" dur="{d}s" begin="-{dl:.1f}s" repeatCount="indefinite"/>'
                      f'<animate attributeName="opacity" values="0;{t["particle_op"]};0" dur="{d}s" begin="-{dl:.1f}s" repeatCount="indefinite"/></circle>')
@@ -333,25 +356,36 @@ def right(t):
     out.append(f'<g>{reveal(3.6)}<text x="{x0}" y="{ly}" font-size="11" xml:space="preserve">{"".join(spans)}</text></g>')
     return "\n".join(out)
 
-def overlay(t):
-    return (f'<rect x="6" y="6" width="{W-12}" height="{H-12}" rx="24" fill="url(#sweep)" pointer-events="none"/>'
-            f'<rect x="6.5" y="6.5" width="{W-13}" height="{H-13}" rx="24" fill="none" stroke="url(#borderGrad)" stroke-width="1.2"/>')
+def overlay(t, w=W, h=H):
+    return (f'<rect x="6" y="6" width="{w-12}" height="{h-12}" rx="24" fill="url(#sweep)" pointer-events="none"/>'
+            f'<rect x="6.5" y="6.5" width="{w-13}" height="{h-13}" rx="24" fill="none" stroke="url(#borderGrad)" stroke-width="1.2"/>')
 
-def svg(theme):
+def svg(theme, card=None):
     t = THEMES[theme]
+    if card == "left":
+        # portrait card only: canvas hugs the left card with a 12px gutter
+        m = 12
+        w, h = L["w"] + 2 * m, L["h"] + 2 * m
+        dx, dy = m - L["x"], m - L["y"]
+        body = f'<g transform="translate({dx} {dy})">{left(t)}</g>'
+        aria = f"{NAME}, {TAGLINE}. Character-rendered portrait card."
+    else:
+        w, h = W, H
+        body = f"{left(t)}\n{right(t)}"
+        aria = ARIA
     return f'''<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="{esc(ARIA)}" font-family="{MONO}">
+<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="{esc(aria)}" font-family="{MONO}">
 <title>{esc(NAME)} · {esc(HEADLINE)}</title>
-<desc>{esc(ARIA)} Animated terminal-style profile banner ({theme} theme).</desc>
-{defs(t)}
-{background(t)}
-{left(t)}
-{right(t)}
-{overlay(t)}
+<desc>{esc(aria)} Animated terminal-style profile banner ({theme} theme).</desc>
+{defs(t, w, h)}
+{background(t, w, h)}
+{body}
+{overlay(t, w, h)}
 </svg>
 '''
 
-for theme in ("dark", "light"):
-    path = os.path.join(OUT, f"{theme}.svg")
-    open(path, "w", encoding="utf-8").write(svg(theme))
+for theme in THEMES_TO_BUILD:
+    name = f"{theme}.svg" if CARD is None else f"{theme}-{CARD}.svg"
+    path = os.path.join(OUT, name)
+    open(path, "w", encoding="utf-8").write(svg(theme, CARD))
     print(path, os.path.getsize(path), "bytes")
