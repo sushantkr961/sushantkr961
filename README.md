@@ -1,95 +1,95 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assests/dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assests/light.svg">
-  <img src="./assests/dark.svg" alt="Sushant Kumar — Full-Stack & React Native Developer" width="100%">
+  <img src="./assests/dark.svg" alt="Sushant Kumar — Full-Stack & React Native Engineer · Industrial IoT · Product Lead at Uptime Linked, New Delhi" width="100%">
 </picture>
 
-<h1 align="center">Namaste🙏🏽, I'm Sushant Kumar</h1>
+<h1 align="center">Namaste 🙏🏽, I'm Sushant Kumar</h1>
+<h3 align="center">Full-Stack & React Native Engineer · Industrial IoT · New Delhi, India</h3>
 
-<h3 align="center">A Passionate Coder from Bihar, India</h3>
-
-## 💫 About Me:
-
-<p>I'm a passionate learner who's always willing to learn and work across technologies and domains 💡. I love to explore new technologies and leverage them to solve real-life problems ✨. I'm currently into Web, Android and ios Development 🕸️ and working on my Data Structures and Algorithms 🤓.</p>
-
-<img align="right" width="450px" height="400px" alt="animated gifs" src="./assests/readme2.webp" />
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=sushantkr961&label=Profile%20views&color=0e75b6&style=flat" alt="sushantkr961" /> </p>
-
-### ⚡ Little bit about me: </br>
-
-🔭 I’m currently working on **React Native** </br>
-⚗️ Though I hold Bachelor’s degree in Mechanical engineering,
-I become a Software developer.</br>
-🌱 I’m actively looking for **Open Source Opportunities** and **Freelancing**.
-
-**⚡ One line that describes me best?**</br>
-🌱 A problem solver and enthusiastic person who loves to code.<br /> </br>
-🌍 I’m based in Nalanda,Bihar.<br/>
-⚡ Visit my <a href="https://sushantkr961.github.io/" target="_blank" rel="noreferrer noopener">Portfolio</a> and <a href="https://drive.google.com/file/d/14Qq1p4eUGvDNjziaUtVvT7HynPCK1jtx/view?usp=sharing" target="_blank" rel="noreferrer noopener">Resume</a> for more details.</br>
-✉️ You can contact me at <a href="mailto:sushantonly961@gmail.com" target="_blank" rel="noreferrer noopener">sushantonly961@gmail.com</a>
-
-<h2 align="left"> 🌐 Connect with me: <img src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif" width="100" /></h2>
-
-<p align="left">
-<a href="https://twitter.com/sushantkr961" target="_blank" rel="noreferrer noopener"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="sushantkr961" height="30" width="40" /></a>
-<a href="https://www.linkedin.com/in/sushantkr961/" target="_blank" rel="noreferrer noopener"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/sushantkr961/" height="30" width="40" /></a>
-<a href="https://codesandbox.com/sushantkr961" target="_blank" rel="noreferrer noopener"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codesandbox.svg" alt="sushantkr961" height="30" width="40" /></a>
+<p align="center">
+  <a href="https://sushantkr961.github.io/">Portfolio</a> ·
+  <a href="https://www.linkedin.com/in/sushantkr961/">LinkedIn</a> ·
+  <a href="https://github.com/sushantkr961">GitHub</a> ·
+  <a href="https://drive.google.com/file/d/14Qq1p4eUGvDNjziaUtVvT7HynPCK1jtx/view?usp=sharing">Resume</a> ·
+  <a href="mailto:sushantonly961@gmail.com">Email</a>
 </p>
 
-## 💻 Languages and Tools:
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=sushantkr961&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
+</p>
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-![Chakra](https://img.shields.io/badge/chakra-%234ED1C5.svg?style=for-the-badge&logo=chakraui&logoColor=white)
-![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
-![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=material-ui&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
-![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Pug](https://img.shields.io/badge/Pug-FFF?style=for-the-badge&logo=pug&logoColor=A86454)
-![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
-![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-![GIT](https://img.shields.io/badge/Git-fc6d26?style=for-the-badge&logo=git&logoColor=white)
-![Babel](https://img.shields.io/badge/Babel-F9DC3e?style=for-the-badge&logo=babel&logoColor=black)
-![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Handlebars](https://img.shields.io/badge/Handlebars-F0772B?style=for-the-badge&logo=handlebars&logoColor=black)
-![EJS](https://img.shields.io/badge/ejs-BF225A?style=for-the-badge&logo=ejs&logoColor=black)
-![Redux Saga](https://img.shields.io/badge/Redux--saga-86D46B?style=for-the-badge&logo=ejs&logoColor=black)
+I build and ship web and mobile products across the JavaScript / TypeScript ecosystem — from the first commit to the App Store, Google Play, the factory floor and production, and then I keep them running. Today I lead platform engineering at **Uptime Linked**, an Industrial IoT company, and I take on freelance builds and full-time conversations.
 
-## 📊 GitHub Stats:
+## 💫 About / Focus
 
-<div style="display: flex;">
-    <img width="450px" height="200px" alt="sushantkr961's GitHub stats" src="https://github-stats-alpha.vercel.app/api?username=sushantkr961" />
-    <img width="300px" height="200px" alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sushantkr961&theme=light&hide_border=false&include_all_commits=true&count_private=true&layout=compact" />
-</div>
+- 🏭 **Industrial IoT** — turning live machine-sensor data (power meters, cycle counters, Modbus devices) into dashboards, OEE and downtime insight.
+- 📱 **Mobile** — cross-platform iOS + Android apps in React Native that actually reach the stores.
+- 🌐 **Full-stack web** — Next.js, React and Node.js products, dashboards, CRMs and ERPs.
+- 🧩 **Product ownership** — architecture to delivery, CI/CD on AWS, code-review standards, and mentoring the team around me.
+- ⚗️ Mechanical engineer by degree, software engineer by choice.
 
-## 🏆 GitHub Trophies
+## 💼 Experience
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=sushantkr961&theme=radical&no-frame=false&no-bg=true&margin-w=4" alt="sushantkr961" /></a> </p>
+**Uptime Linked** (Hungrybulb Technologies Pvt Ltd.) — *Full-Stack Developer & Product Lead* · Mar 2026 – Present · New Delhi
+- Lead product development across the company's Industrial IoT platforms, from architecture to delivery, with the engineering team.
+- Build the cross-platform mobile and web apps (React Native, React, Node.js, TypeScript) that integrate real-time machine-sensor data for manufacturing operations.
+- Set up CI/CD pipelines and code-review standards on AWS.
 
-## 🔝 Top Contributed Repo
+**Pantheon Digital Pvt Ltd.** — *Software Developer / Project Lead* · Apr 2023 – Feb 2026 · New Delhi
+- Led full-stack development of LoadingWalla, ZFour HRMS and the company website; promoted to project lead within the first year and mentored the developer team.
+- Shipped the LoadingWalla logistics suite: Android app on Google Play (real-time GPS tracking, fleet management, toll automation), a Next.js web platform and an admin CRM.
+- Delivered ZFour HRMS end to end: web portal plus React Native apps on Google Play and the App Store, with role-based access, attendance tracking and real-time feeds.
+- Engineered a high-frequency geolocation ingestion service in Node.js on a Redis Streams producer/consumer architecture.
 
-![](https://github-contributor-stats.vercel.app/api?username=sushantkr961&limit=5&theme=dark&combine_all_yearly_contributions=true)
+**Freelance**
+- **Indulge Global** (2024) — React Native frontend and API integration for a lifestyle-deals app, shipped to both stores.
+- **Jas Oberoi Group** (2024) — Next.js + Node/Express/MongoDB website for a real-estate team in Surrey, BC. [jasoberoi.ca](https://jasoberoi.ca)
 
-## ✍️ Random Dev Quote
+**Education** — B.Tech, Mechanical Engineering, Aryabhatta Knowledge University (LNJPIT), Patna · Full-Stack Web Development, Masai School, Bengaluru
 
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-<img  src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" />
+**Recognition** — “Outstanding Team Leader” at Pantheon Digital · 2nd place, Masai School Hackathon
+
+## 🚀 Featured Projects
+
+| Project | What it is | Stack | Links |
+| --- | --- | --- | --- |
+| **UptimeLinked** | Manufacturing IoT platform: sensor readings over MQTT become live machine boards, shift production sheets, OEE, downtime tickets, energy reports and ANDON kiosks. | Next.js, TypeScript, Prisma, MySQL, TimescaleDB, MQTT, AWS | employer · private |
+| **TaktBoard** | Production-planning and traceability MES: orders become batches that move through a visual workflow, with QR scanning, rework tracking and OEE analytics. | Next.js, React, Prisma, MySQL, React Flow, TanStack Query | employer · private |
+| **LoadingWalla** | Logistics marketplace connecting shippers with truck operators: live GPS tracking, load matching, toll calculator, KYC, payments. | React Native, Redux-Saga, Firebase, Next.js, Laravel | [Google Play](https://play.google.com/store/apps/details?id=com.loadingwalla) · [Website](https://loadingwalla.com) |
+| **ZFour HRMS** | HR suite on both app stores: geo-fenced attendance, leave, payroll, recruitment ATS, helpdesk and an internal social feed. | Laravel, MySQL, React Native, Redux-Saga, Firebase | employer · private |
+| **School Management System** | Multi-branch school ERP that installs from a single desktop shortcut: an Electron supervisor boots MariaDB, an Express API and a Next.js server, with structural multi-tenant isolation via a Prisma extension. | TypeScript, Next.js, Electron, Express, Prisma, MariaDB | [Source](https://github.com/sushantkr961/School-Mangagement-Software---onPremise) |
+| **SkMart** | MERN e-commerce store with PayPal checkout, an admin dashboard and real-time Socket.IO chat with the store admin. | React, Node.js, Express, MongoDB, Socket.IO, Redux | [Live](https://skmart.onrender.com) · [Source](https://github.com/sushantkr961/SkMart) |
+| **Tripadvisor Clone** | Hotel browsing with debounced search, full account management and an admin dashboard. | TypeScript, React, Express, MongoDB, Chakra UI, Redux | [Source](https://github.com/sushantkr961/Tripadvisor-Clone) |
+| **Workflo** | Kanban task board on the Next.js App Router with JWT sessions and Mongoose persistence. | TypeScript, Next.js, Redux Toolkit, MongoDB, Tailwind CSS | [Source](https://github.com/sushantkr961/workflo-) |
+| **MERN Chat App** | One-to-one and group messaging with JWT auth and a Chakra UI frontend. | React, Node.js, Express, MongoDB | [Source](https://github.com/sushantkr961/chat_app) |
+
+## 🛠️ Engineering Stack
+
+| Area | Technologies |
+| --- | --- |
+| Languages | JavaScript, TypeScript, Python, PHP |
+| Mobile | React Native, Expo, Redux-Saga, Firebase, Android Studio, Xcode |
+| Web | React, Next.js, Redux, TanStack Query, Tailwind CSS, Recharts, Vite, PWA, i18next |
+| Backend | Node.js, Express, REST APIs, Socket.IO, Prisma, Sequelize, Laravel |
+| Data | MySQL, MongoDB, Redis, TimescaleDB, MariaDB |
+| Cloud / DevOps | AWS, Docker, CI/CD, Linux, Git, GitHub, GitLab |
+| IoT / Edge | MQTT, Modbus RTU / RS485, Raspberry Pi, ESP32 |
+| Practice | System Design, Design Patterns, MVC, Agile, Data Structures & Algorithms, AI-assisted development |
+
+## 📊 GitHub Activity
+
+<p align="left">
+  <img height="180" alt="Sushant Kumar's GitHub stats" src="https://github-stats-alpha.vercel.app/api?username=sushantkr961" />
+  <img height="180" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sushantkr961&theme=light&hide_border=false&include_all_commits=true&count_private=true&layout=compact" />
+</p>
+
+## 🌐 Connect
+
+- 💼 LinkedIn — [linkedin.com/in/sushantkr961](https://www.linkedin.com/in/sushantkr961/)
+- 🐦 X (Twitter) — [@sushantkr961](https://twitter.com/sushantkr961)
+- 🌍 Portfolio — [sushantkr961.github.io](https://sushantkr961.github.io/)
+- 📄 Resume — [Google Drive](https://drive.google.com/file/d/14Qq1p4eUGvDNjziaUtVvT7HynPCK1jtx/view?usp=sharing)
+- ✉️ Email — [sushantonly961@gmail.com](mailto:sushantonly961@gmail.com)
+
+Open to freelance product builds and full-time Full-Stack / React Native / IoT lead roles — hybrid in New Delhi or remote.
